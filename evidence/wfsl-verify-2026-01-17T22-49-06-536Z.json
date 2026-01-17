@@ -1,0 +1,45 @@
+{
+  "wfsl_verification": "WFSL-LOCAL-VERIFY-v1",
+  "repo": {
+    "path": "C:\\Users\\Paul Wynn\\github\\sentinel-inspection",
+    "remote": "https://github.com/Wynergyy/sentinel-inspection.git",
+    "head": "37c0194149f05f8c323862b9d2c4546bb77c001b"
+  },
+  "timestamp_utc": "2026-01-17T22-49-06-536Z",
+  "checks": {
+    "required_files_present": false,
+    "missing_files": [
+      "LICENSE",
+      "GOVERNANCE.md",
+      "VERIFICATION.md"
+    ],
+    "license_apache_2_0_detected": false
+  },
+  "artifacts": {
+    "required_files": [
+      {
+        "path": "LICENSE",
+        "exists": false,
+        "sha256": ""
+      },
+      {
+        "path": "README.md",
+        "exists": true,
+        "sha256": "e08362ab54a76a4619c4750ec666b724ef5ea9b61fb82a40cd518ab3a2a8ff82"
+      },
+      {
+        "path": "GOVERNANCE.md",
+        "exists": false,
+        "sha256": ""
+      },
+      {
+        "path": "VERIFICATION.md",
+        "exists": false,
+        "sha256": ""
+      }
+    ]
+  },
+  "outcome": {
+    "pass": false
+  }
+}
